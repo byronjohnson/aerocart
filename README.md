@@ -16,11 +16,11 @@
 </p>
 
 <p align="center">
-  <a href="#-quick-start">Quick Start</a> &nbsp;&bull;&nbsp;
-  <a href="#-what-you-get">Features</a> &nbsp;&bull;&nbsp;
-  <a href="#-adding-your-products">Add Products</a> &nbsp;&bull;&nbsp;
-  <a href="#-api-reference">API</a> &nbsp;&bull;&nbsp;
-  <a href="#-free-vs-pro">Free vs Pro</a>
+  <a href="#quick-start">Quick Start</a> &nbsp;&bull;&nbsp;
+  <a href="#what-you-get">Features</a> &nbsp;&bull;&nbsp;
+  <a href="#adding-your-products">Add Products</a> &nbsp;&bull;&nbsp;
+  <a href="#api-reference">API</a> &nbsp;&bull;&nbsp;
+  <a href="#free-vs-pro">Free vs Pro</a>
 </p>
 
 ---
