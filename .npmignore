@@ -1,0 +1,17 @@
+# Development
+node_modules/
+.next/
+.env
+.env.local
+.env.*.local
+
+# Git & GitHub
+.git/
+.github/
+
+# IDE
+.DS_Store
+*.tsbuildinfo
+
+# Vercel
+.vercel

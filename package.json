@@ -1,0 +1,50 @@
+{
+    "name": "aerocart",
+    "version": "1.0.0",
+    "description": "Sell digital products with Next.js and Stripe — zero monthly fees",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aerocart/aerocart.git"
+    },
+    "homepage": "https://aerocart.dev",
+    "bugs": {
+        "url": "https://github.com/aerocart/aerocart/issues"
+    },
+    "keywords": [
+        "nextjs",
+        "stripe",
+        "ecommerce",
+        "digital-products",
+        "checkout",
+        "react",
+        "starter-kit",
+        "digital-downloads",
+        "payment",
+        "storefront"
+    ],
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "scripts": {
+        "setup": "node setup.mjs",
+        "postinstall": "node setup.mjs --auto",
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint"
+    },
+    "dependencies": {
+        "lucide-react": "^0.562.0",
+        "next": "16.1.1",
+        "react": "19.2.3",
+        "react-dom": "19.2.3",
+        "stripe": "^20.1.2"
+    },
+    "devDependencies": {
+        "@tailwindcss/postcss": "^4",
+        "eslint": "^9",
+        "eslint-config-next": "16.1.1",
+        "tailwindcss": "^4"
+    }
+}
