@@ -5,11 +5,11 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/aerocart/aerocart.git"
+        "url": "https://github.com/byronjohnson/aerocart.git"
     },
     "homepage": "https://aerocart.dev",
     "bugs": {
-        "url": "https://github.com/aerocart/aerocart/issues"
+        "url": "https://github.com/byronjohnson/aerocart/issues"
     },
     "keywords": [
         "nextjs",
@@ -43,6 +43,8 @@
     },
     "devDependencies": {
         "@tailwindcss/postcss": "^4",
+        "@types/node": "25.2.3",
+        "@types/react": "19.2.14",
         "eslint": "^9",
         "eslint-config-next": "16.1.1",
         "tailwindcss": "^4"

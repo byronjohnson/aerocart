@@ -6,13 +6,13 @@
 
 <p align="center">
   <strong>Sell digital products with Next.js and Stripe.</strong><br />
-  Zero monthly fees. Zero platform taxes. You own every line of code.
+  Zero monthly fees
 </p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/aerocart"><img src="https://img.shields.io/npm/v/aerocart.svg" alt="npm version" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
-  <a href="https://github.com/aerocart/aerocart/stargazers"><img src="https://img.shields.io/github/stars/aerocart/aerocart.svg" alt="GitHub stars" /></a>
+  <a href="https://github.com/byronjohnson/aerocart/stargazers"><img src="https://img.shields.io/github/stars/byronjohnson/aerocart.svg" alt="GitHub stars" /></a>
 </p>
 
 <p align="center">
@@ -40,16 +40,18 @@ AeroCart is different. It's a self-hosted Next.js app that connects directly to 
 
 ## Quick Start
 
+### Install via npm
+
 ```bash
-npx create-aerocart-app my-store
+npx aerocart my-store
 cd my-store
 npm run dev
 ```
 
-Or clone manually:
+### Or clone manually
 
 ```bash
-git clone https://github.com/aerocart/aerocart.git my-store
+git clone https://github.com/byronjohnson/aerocart.git my-store
 cd my-store
 npm install
 npm run setup
@@ -270,6 +272,15 @@ See [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) for common issues.
 - `STRIPE_SECRET_KEY is missing` -- run `npm run setup` or edit `.env.local`
 - Products not showing -- check `src/lib/inventory.js`
 - Download fails -- verify `downloadUrl` is accessible from your server
+
+---
+
+## Links
+
+- [npm](https://www.npmjs.com/package/aerocart)
+- [GitHub](https://github.com/byronjohnson/aerocart)
+- [Website](https://aerocart.dev)
+- [Report an Issue](https://github.com/byronjohnson/aerocart/issues)
 
 ---
 
