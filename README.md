@@ -236,7 +236,7 @@ AeroCart is **free and open-source**. The free tier is fully functional with a 1
 | | | |
 | **Price** | **$0** | **$50/year** |
 
-**[Get a Pro license](https://aerocart.dev/pricing)**
+**[Get a Pro license](https://aerocartshop.com/pricing)**
 
 ---
 
@@ -279,7 +279,7 @@ See [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) for common issues.
 
 - [npm](https://www.npmjs.com/package/aerocart)
 - [GitHub](https://github.com/byronjohnson/aerocart)
-- [Website](https://aerocart.dev)
+- [Website](https://aerocartshop.com)
 - [Report an Issue](https://github.com/byronjohnson/aerocart/issues)
 
 ---

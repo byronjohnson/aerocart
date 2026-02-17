@@ -6,7 +6,7 @@
  * Free tier: No key required. Limited to 1 product.
  * Pro tier:  Set AEROCART_LICENSE_KEY in .env.local. Unlimited products.
  *
- * Get a license at https://aerocart.dev/pricing
+ * Get a license at https://aerocartshop.com/pricing
  */
 
 const FREE_PRODUCT_LIMIT = 1;
@@ -71,7 +71,7 @@ export function getProductLimit() {
   if (isPro) {
     console.log('\u2708 AeroCart Pro \u2014 Unlimited products');
   } else {
-    console.log('\u2708 AeroCart Free \u2014 ' + FREE_PRODUCT_LIMIT + ' product limit. Upgrade at https://aerocart.dev/pricing');
+    console.log('\u2708 AeroCart Free \u2014 ' + FREE_PRODUCT_LIMIT + ' product limit. Upgrade at https://aerocartshop.com/pricing');
   }
 
   return isPro ? PRO_PRODUCT_LIMIT : FREE_PRODUCT_LIMIT;

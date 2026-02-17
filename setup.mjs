@@ -174,7 +174,7 @@ async function main() {
   } else {
     log.info(`${color.bold}Free tier:${color.reset} Sell 1 product (no key needed)`);
     log.info(`${color.bold}Pro tier:${color.reset}  Sell unlimited products (requires license key)`);
-    log.info(`Get a license at: ${color.cyan}https://aerocart.dev/pricing${color.reset}\n`);
+    log.info(`Get a license at: ${color.cyan}https://aerocartshop.com/pricing${color.reset}\n`);
 
     const rl2 = readline.createInterface({ input: process.stdin, output: process.stdout });
     const licenseKey = await ask(rl2, 'License Key (leave empty for Free tier)', '');
